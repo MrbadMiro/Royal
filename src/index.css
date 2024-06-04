@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Kumbh+Sans:wght@100..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Kumbh+Sans:wght@100..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+ 
+
+ 
+
+#slider-boxes {
+  display:flex ;
+}
+
+.slick-slide div{
+  margin:10px;
+
+  
+  
+}
+.custom-slider .slick-dots li button:before {
+  color: #1f294c; /* Change to your desired color */
+}
+input::placeholder {
+  color: #837A7A; /* Change color as desired */
+  font-size: 14px; 
+  font:Jost;/* Adjust font size if needed */
+}
+textarea::placeholder {
+  color: #837A7A; 
+  font-size: 14px; 
+  font:Jost; 
+}
+
+.tabs {
+  cursor: pointer;
+  padding: 10px 20px;
+  margin: 0 10px;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.active-tab {
+  border-color: navy;
+  color: navy;
+}
+
+input::text {
+  color: #837A7A; /* Change color as desired */
+  font-size: 14px; /* Adjust font size if needed */
+}
+
+textarea::placeholder {
+  color: #837A7A; /* Change color as desired */
+   /* Adjust font size if needed */
+}
+
+.shadow-custom {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.shadow-custom1 {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+
