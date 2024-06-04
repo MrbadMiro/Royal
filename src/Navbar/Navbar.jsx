@@ -36,7 +36,7 @@ const Navbar = () => {
 				active ? "shadow-lg bg-white top-0" : ""
 			}`}>
 			<div
-				className={`  md:mx-24 mx-0  md:px-0 flex items-center justify-between   ${
+				className={`  md:px-24 px-6 flex items-center justify-between   ${
 					active ? "py-2 transition-all duration-1000" : "py-3"
 				}`}>
 				<div className="flex items-center justify-between w-full md:w-[120px] ">

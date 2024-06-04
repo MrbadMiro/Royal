@@ -10,7 +10,7 @@ const Home = () => {
 	};
 	return (
 		<div
-			className="mt-0 py-5 h-full flex w-full md:px-12 px-6"
+			className="mt-0 py-10 h-full flex w-full md:px-12 px-6"
 			style={sectionStyle}
 			id="home">
 			<div className="grid lg:grid-cols-2 pt-10 mt-10 relative gap-7">
@@ -31,7 +31,7 @@ const Home = () => {
 							opacity: { duration: 1 },
 							ease: "easeIn",
 							duration: 0.6,
-						}} className="  font-bold leading-[50px] md:leading-[72px] text-navy left-3 font-jost text-[48px] md:text-[68px] text-center lg:text-left mb-2  ">
+						}} className="  font-bold leading-[50px] md:leading-[68px] text-navy left-3 font-jost text-[48px] md:text-[64px] text-center lg:text-left mb-2  ">
 						Your Trusted Partner for Senior Care in Sri Lanka
 						
 					</motion.p>
@@ -54,7 +54,7 @@ const Home = () => {
 						</ScrollLink>
 					</div>
 				</div>
-				<div className=" hidden order-1 md:order-2 pr-0 h-full w-full lg:flex items-center justify-center  ">
+				<div className=" hidden order-1 md:order-2 pl-20 h-full w-full lg:flex items-center justify-center  ">
 					<div className="flex mb-0 gap-4 ">
 						<img
 							src={hero1}
