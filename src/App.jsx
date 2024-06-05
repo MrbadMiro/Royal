@@ -13,7 +13,7 @@ import {
 
 function App() {
 	return (
-		<div className="bg-white font-inter">
+		<div className="bg-white font-inter w-[100vw]">
 			<TopSection />
 			<Navbar />
 			<Home />
