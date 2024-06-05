@@ -26,7 +26,7 @@ const Testimonial = () => {
 					<div className="-top-8 left-1/2 transform -translate-x-1/2    absolute  border-green    rounded-full">
 						<img src={Testimonial_img1} alt="" className="" />
 					</div>
-					<p className="mt-4 text-[48px] text-navy font-jost font-semibold ">
+					<p className="mt-5 text-[48px] text-navy font-jost font-semibold ">
 						{" "}
 						100+
 					</p>
@@ -38,7 +38,7 @@ const Testimonial = () => {
 					<div className="-top-8 left-1/2 transform -translate-x-1/2    absolute  border-green    rounded-full">
 						<img src={Testimonial_img2} alt="" className="" />
 					</div>
-					<p className="mt-4 text-[48px] text-navy font-jost font-semibold ">
+					<p className="mt-5 text-[48px] text-navy font-jost font-semibold ">
 						{" "}
 						40+
 					</p>
@@ -50,7 +50,7 @@ const Testimonial = () => {
 					<div className="-top-8 left-1/2 transform -translate-x-1/2    absolute  border-green    rounded-full">
 						<img src={Testimonial_img3} alt="" className="" />
 					</div>
-					<p className="mt-4 text-[48px] text-navy font-jost font-semibold ">
+					<p className="mt-5 text-[48px] text-navy font-jost font-semibold ">
 						{" "}
 						30+
 					</p>
@@ -60,7 +60,7 @@ const Testimonial = () => {
 					<div className="-top-8 left-1/2 transform -translate-x-1/2    absolute  border-green    rounded-full">
 						<img src={Testimonial_img4} alt="" className="" />
 					</div>
-					<p className="mt-4 text-[48px] text-navy font-jost font-semibold ">
+					<p className="mt-5 text-[48px] text-navy font-jost font-semibold ">
 						{" "}
 						18+
 					</p>
