@@ -18,7 +18,7 @@ const Home = () => {
 				<div className="order-2 px-2 lg:px-0 md:order-1 lg:pl-10 py-auto flex flex-col justify-center md:items-left my-auto">
 					<div className="flex flex-col">
 						<p className=" text-[15px] font-bold font-jost leading-4 text-navy mb-4 lg:text-left  text-center  ">
-							WELCOME TO OLD CARE CENTER.
+							WELCOME TO OLD CARE CENTER
 							<img src={line} alt="" className="lg:block hidden   " />
 						</p>
 					</div>
