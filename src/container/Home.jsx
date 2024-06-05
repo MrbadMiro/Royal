@@ -55,11 +55,11 @@ const Home = () => {
 					</div>
 				</div>
 				<div className=" hidden order-1 md:order-2 pl-20 h-full w-full lg:flex items-center justify-center  ">
-					<div className="flex mb-0 gap-4 ">
+					<div className="flex mb-0 gap-12 ">
 						<img
 							src={hero1}
 							alt=""
-							className=" h-full lg:h-[500px] rounded-[200px]  object-cover w-[40%]    mb-0  pb-0 pr-0"
+							className=" h-full lg:h-[400px] rounded-[200px]  object-cover w-[40%]    mb-0  pb-0 pr-0"
 						/>
 
 						<img

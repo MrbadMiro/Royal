@@ -114,14 +114,10 @@ const About = () => {
 							</div>
 						</div>
 					</div>
-					<div className="flex flex-col  xs:gap-[30px] ss:gap-0 ss:flex-row mt-2 w-full h-full items-center justify-center  ">
+					<div className="flex  flex-col gap-4  ss:flex-row mt-4 w-full h-full items-center justify-center  ">
 						<div className="w-full pr-2 h-full ">
 							<div>
-								{/* <button class="overflow mt-2 text-[12px]  text-white font-semibold  bg-Orange group  relative  overflow-hidden   px-6 py-3 mr-2 before:absolute before:top-0 before:-left-full before:h-full before:w-full before:bg-green before:transition-transform before:duration-500 hover:before:translate-x-full">
-									<span class="relative z-10 block transition-colors font-semibold duration-300 group-hover:text-white">
-										Discover More
-									</span>
-								</button> */}
+								
 								<a
 									href={url}
 									target="_blank"
@@ -144,7 +140,7 @@ const About = () => {
 								</a>
 							</div>
 						</div>
-						<div className="flex     xs:py-2 ss:py-0 flex-row gap-2 w-full h-full items-center justify-center">
+						<div className="flex     ss:py-0 flex-row gap-2 w-full h-full items-center justify-center">
 							<div>
 								<div className="rounded-full p-3 bg-[#f2f3f5]">
 									<IoIosCall className=" animate-bounce" />
