@@ -74,13 +74,13 @@ const Navbar = () => {
 						initial={{ x: -100, opacity: 0 }}
 						animate={{ x: 0, opacity: 1 }}
 						transition={{ duration: 0.3 }}
-						className="fixed h-full w-[80vw] top-0 left-0 z-30 bg-navy text-white flex flex-col    shadow-lg ">
+						className="fixed h-full w-[80vw] top-0 left-0 z-30 bg-navy text-white flex flex-col  i  shadow-lg ">
 						<div className="w-full flex flex-col relative items-center top-2 justify-center  py-8">
 							<HiX
 								className="absolute left-3 top-3 text-2xl cursor-pointer"
 								onClick={() => setToggle(false)}
 							/>
-							<div className="flex flex-col items-center justify-center gap-2 text-[18px]">
+							<div className="flex flex-col items-center justify-center gap-8 text-left mt text-[18px]">
 								{navLinks.map((navLink) => (
 									<MobileNavLinks
 										key={navLink.id}
