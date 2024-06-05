@@ -91,16 +91,16 @@ const Navbar = () => {
 								))}
 							</div>
 
-							<div className="flex flex-col w-full items-start px-6 gap-8 mt-8 justify-center relative text-[14px] mr-5">
+							<div className="flex flex-col w-full items-start px-6 gap-8 mt-8 justify-center relative text-[14px] ">
 								<button
-									className="overflow bg-green group rounded-md relative overflow-hidden text-[12px] text-white px-5 py-2 before:absolute before:top-full before:left-0 before:h-full before:w-full before:bg-black before:transition-transform before:duration-500 hover:before:-translate-y-full"
+									className="overflow bg-green w-full group rounded-md relative overflow-hidden text-[12px] text-white px-5 py-2 before:absolute before:top-full before:left-0 before:h-full before:w-full before:bg-black before:transition-transform before:duration-500 hover:before:-translate-y-full"
 									onClick={toggleForm1}>
 									<span className="relative z-10 block transition-colors duration-300 group-hover:text-white">
 										Employee Reg
 									</span>
 								</button>
 								<button
-									className="overflow bg-green group rounded-md  relative overflow-hidden text-[12px] text-white px-4 py-2 before:absolute before:top-full before:left-0 before:h-full before:w-full before:bg-black before:transition-transform before:duration-500 hover:before:-translate-y-full"
+									className="overflow bg-green group w-full rounded-md  relative overflow-hidden text-[12px] text-white px-4 py-2 before:absolute before:top-full before:left-0 before:h-full before:w-full before:bg-black before:transition-transform before:duration-500 hover:before:-translate-y-full"
 									onClick={toggleForm2}>
 									<span className="relative z-10 block transition-colors duration-300 group-hover:text-white">
 										Hire Care Taker
