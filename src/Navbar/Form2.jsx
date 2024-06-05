@@ -24,7 +24,7 @@ const Form = ({ toggleForm }) => {
 	};
 
 	return (
-		<div className="fixed top-0 left-0 h-full w-full bg-black bg-opacity-50 flex justify-center items-center z-30">
+		<div className="fixed top-0 left-0 h-full w-[vw] mx-6 bg-black bg-opacity-50 flex justify-center items-center z-30">
 			<div className="bg-white p-8 rounded-lg relative max-h-[90%] overflow-y-auto">
 				<h2 className="text-lg font-bold mb-4">Patient Details Form</h2>
 				<form className="flex flex-col" ref={formRef} onSubmit={handleSubmit}>
