@@ -11,7 +11,7 @@ const Support = () => {
 
 	return (
 		<div
-			className="lg:px-24 px-6 py-24 flex flex-col h-full w-full items-centerv my-4 md:my-24 justify-center"
+			className="lg:px-24 px-6 py-24 flex flex-col h-full w-full items-centerv my-4 md:mt-12 md:mb-24 justify-center"
 			style={sectionStyle}>
 			<div className="grid md:grid-cols-2 items-center justify-center">
 				<div className="order-1 flex flex-col w-full h-full">
