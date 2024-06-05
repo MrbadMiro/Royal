@@ -142,7 +142,7 @@ const About = () => {
 						</div>
 						<div className="flex pl-2    ss:py-0 flex-row gap-2 w-full h-full items-center justify-center">
 							<div>
-								<div className="rounded-full p-3 bg-[#f2f3f5]">
+								<div className="rounded-full p-[14px] bg-[#f2f3f5]">
 									<IoIosCall className=" animate-bounce" />
 								</div>
 							</div>
