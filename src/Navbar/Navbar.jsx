@@ -71,7 +71,7 @@ const Navbar = () => {
 
 				{toggle && (
 					<motion.div
-						initial={{ x: -500, opacity: 0 }}
+						initial={{ x: -100, opacity: 0 }}
 						animate={{ x: 0, opacity: 1 }}
 						transition={{ duration: 0.3 }}
 						className="fixed h-full w-full top-0 left-0 z-20 bg-navy text-white flex flex-col justify-center items-center shadow-lg gap-8 py-8">
