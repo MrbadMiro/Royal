@@ -80,7 +80,7 @@ const Navbar = () => {
 								className="absolute left-3 top-3 text-2xl cursor-pointer"
 								onClick={() => setToggle(false)}
 							/>
-							<div className="flex flex-col items-center justify-center gap-2 text-[14px]">
+							<div className="flex flex-col items-center justify-center gap-2 text-[18px]">
 								{navLinks.map((navLink) => (
 									<MobileNavLinks
 										key={navLink.id}
