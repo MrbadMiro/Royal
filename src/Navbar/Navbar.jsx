@@ -74,41 +74,47 @@ const Navbar = () => {
 						initial={{ x: -100, opacity: 0 }}
 						animate={{ x: 0, opacity: 1 }}
 						transition={{ duration: 0.3 }}
-						className="fixed h-full w-[100vw] top-0 left-0 z-20 bg-navy text-white flex flex-col justify-center items-center shadow-lg gap-8 py-8">
-						{navLinks.map((navLink) => (
-							<MobileNavLinks
-								key={navLink.id}
-								{...navLink}
-								setToggle={setToggle}
+						className="fixed h-full w-[80vw] top-0 left-0 z-30 bg-navy text-white flex flex-col    shadow-lg ">
+						<div className="w-full flex flex-col relative items-center top-2 justify-center  py-8">
+							<HiX
+								className="absolute left-3 top-3 text-2xl cursor-pointer"
+								onClick={() => setToggle(false)}
 							/>
-						))}
+							<div className="flex flex-col items-center justify-center gap-2 text-[14px]">
+								{navLinks.map((navLink) => (
+									<MobileNavLinks
+										key={navLink.id}
+										{...navLink}
+										setToggle={setToggle}
+										 
+									/>
+								))}
+							</div>
 
-						<div className="flex flex-col w-full items-center gap-8  justify-center text-[14px] mr-4">
-							<button
-								className="overflow bg-green group relative overflow-hidden text-[12px] text-white px-5 py-2 before:absolute before:top-full before:left-0 before:h-full before:w-full before:bg-black before:transition-transform before:duration-500 hover:before:-translate-y-full"
-								onClick={toggleForm1}>
-								<span className="relative z-10 block transition-colors duration-300 group-hover:text-white">
-									Employee Reg
-								</span>
-							</button>
-							<button
-								className="overflow bg-green group relative overflow-hidden text-[12px] text-white px-4 py-2 before:absolute before:top-full before:left-0 before:h-full before:w-full before:bg-black before:transition-transform before:duration-500 hover:before:-translate-y-full"
-								onClick={toggleForm2}>
-								<span className="relative z-10 block transition-colors duration-300 group-hover:text-white">
-									Hire Care Taker
-								</span>
-							</button>
+							<div className="flex flex-col w-full items-center gap-2 mt-2 justify-center relative text-[14px] mr-5">
+								<button
+									className="overflow bg-green group rounded-md relative overflow-hidden text-[12px] text-white px-5 py-2 before:absolute before:top-full before:left-0 before:h-full before:w-full before:bg-black before:transition-transform before:duration-500 hover:before:-translate-y-full"
+									onClick={toggleForm1}>
+									<span className="relative z-10 block transition-colors duration-300 group-hover:text-white">
+										Employee Reg
+									</span>
+								</button>
+								<button
+									className="overflow bg-green group rounded-md  relative overflow-hidden text-[12px] text-white px-4 py-2 before:absolute before:top-full before:left-0 before:h-full before:w-full before:bg-black before:transition-transform before:duration-500 hover:before:-translate-y-full"
+									onClick={toggleForm2}>
+									<span className="relative z-10 block transition-colors duration-300 group-hover:text-white">
+										Hire Care Taker
+									</span>
+								</button>
+							</div>
+							{showForm1 && <Form1 toggleForm={toggleForm1} />}
+							{showForm2 && <Form2 toggleForm={toggleForm2} />}
 						</div>
-
-						<HiX
-							className="absolute left-16 top-16 text-3xl cursor-pointer"
-							onClick={() => setToggle(false)}
-						/>
 					</motion.div>
 				)}
+				{showForm1 && <Form1 toggleForm={toggleForm1} />}
+				{showForm2 && <Form2 toggleForm={toggleForm2} />}
 			</div>
-			{showForm1 && <Form1 toggleForm={toggleForm1} />}
-			{showForm2 && <Form2 toggleForm={toggleForm2} />}
 		</div>
 	);
 };
