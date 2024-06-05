@@ -80,7 +80,7 @@ const Navbar = () => {
 								className="absolute right-3 top-3 text-2xl cursor-pointer"
 								onClick={() => setToggle(false)}
 							/>
-							<div className="flex flex-col items-start mt-8  w-full justify-center gap-8 text-left mt text-[18px]">
+							<div className="flex flex-col items-start mt-8  w-full justify-center border-b-1 gap-8 px-6 text-left mt text-[18px] b">
 								{navLinks.map((navLink) => (
 									<MobileNavLinks
 										key={navLink.id}
@@ -91,7 +91,7 @@ const Navbar = () => {
 								))}
 							</div>
 
-							<div className="flex flex-col w-full items-center gap-2 mt-2 justify-center relative text-[14px] mr-5">
+							<div className="flex flex-col w-full items-start px-6 gap-8 mt-8 justify-center relative text-[14px] mr-5">
 								<button
 									className="overflow bg-green group rounded-md relative overflow-hidden text-[12px] text-white px-5 py-2 before:absolute before:top-full before:left-0 before:h-full before:w-full before:bg-black before:transition-transform before:duration-500 hover:before:-translate-y-full"
 									onClick={toggleForm1}>
