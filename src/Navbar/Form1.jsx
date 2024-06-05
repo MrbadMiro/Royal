@@ -29,7 +29,7 @@ const Form = ({ toggleForm }) => {
 				<h2 className="text-lg font-bold mb-4">Employee Details Form</h2>
 				<form className="flex flex-col" ref={formRef} onSubmit={handleSubmit}>
 					<input type="hidden" name="formType" value="Form2" />
-					<div className="flex flex-col md:flex-cols-2 gap-3 mt-4">
+					<div className="grid grid-col md:grid-cols-2 gap-3 mt-4">
 						<input
 							type="text"
 							name="FullName"
