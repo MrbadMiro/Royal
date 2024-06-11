@@ -120,7 +120,7 @@ const Form = ({ toggleForm }) => {
 							</div>
 						</div>
 
-						<div className="grid grid-cols-2 gap-3 ">
+						<div className="grid md:grid-cols-2 gap-3 ">
 							<textarea
 								name="yearsExperience"
 								maxLength="200"
@@ -140,7 +140,7 @@ const Form = ({ toggleForm }) => {
 						{/* Certifications and Qualifications : */}
 						<div className=" py-2 mt-2 outline-none text-[14px] text-navy   w-full">
 							<label className="">Certifications and Qualifications :</label>
-							<div className="grid grid-cols-2 gap-3 ">
+							<div className="grid md:grid-cols-2 gap-3 ">
 								<textarea
 									name="certifications"
 									maxLength="200"

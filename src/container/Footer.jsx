@@ -19,10 +19,8 @@ const Footer = () => {
 		backgroundPosition: "center",
 	};
 	return (
-		<motion.div
-			initial={{ height: 0 }}
-			whileInView={{ height: "auto" }}
-			transition={{ duration: 1 }}
+		<div
+			
 			className="lg:px-24 px-6   mt-12 flex flex-col h-full w-full items-center justify-center relative bg-navy "
 			style={sectionStyle}>
 			<div className="grid rounded-md md:px-0 px-2 items-center justify-center ss:grid-cols-2 lg:grid-cols-5 w-full h-full top-0 py-4 bg-[#151E3D] text-white">
@@ -267,7 +265,7 @@ const Footer = () => {
 					<a href="https://tetravi.com/">Tetra VI😍.</a>
 				</p>
 			</div>
-		</motion.div>
+		</div>
 	);
 };
 
