@@ -18,7 +18,7 @@ const Testimonial = () => {
 	};
 	return (
 		<div
-			className="lg:px-20 px-6 z-10 ss:pt-6 pb-[80px] md:py-24 mt-[700px] ss:my-[300px] md:my-24 flex flex-col h-full w-full items-center justify-center bg-[#f2f3f5] relative"
+			className="md:px-24 px-6 z-10 ss:pt-6 pb-[80px] md:py-24 mt-[700px] ss:my-[300px] md:my-24 flex flex-col h-full w-full items-center justify-center bg-[#f2f3f5] relative"
 			id="testimonial"
 			style={sectionStyle}>
 			<div className="-top-[680px] ss:-top-[300px] md:-top-10 left-1/2 transform -translate-x-1/2 absolute grid md:grid-cols-4 ss:grid-cols-2 w-full px-6 lg:px-24 gap-10 md:gap-2">
@@ -85,7 +85,7 @@ const Testimonial = () => {
 					What people are saying about us!
 				</motion.p>
 			</div>
-			<div className="grid lg:grid-cols-3 w-full h-full mt-10 items-center  justify-center gap-5">
+			<div className="grid lg:grid-cols-3 w-full h-full mt-10 items-center  justify-center gap-2">
 				<div className="bg-white shadow-custom flex items-center flex-col rounded-md justify-center w-full h-full ">
 					<div className=" flex flex-cols-2 justify-between items-center p-5 w-full ">
 						<div className="flex flex-col">
