@@ -36,22 +36,14 @@ const Contact = () => {
 			className="lg:px-24 px-6 py-12 md:py-20 my-12 md:my-24 flex flex-col h-full w-full items-center justify-center relative"
 			style={sectionStyle}
 			id="contact">
-			<div className="grid lg:grid-cols-2 w-full h-full gap-3">
+			<div data-aos="fade-up" className="grid lg:grid-cols-2 w-full h-full gap-3">
 				<div className="">
 					<p className="text-[14px] text-green font-jost font-bold text-left">
 						Contact Now
 					</p>
-					<motion.p initial={{ x: -100, opacity: 0 }}
-						whileInView={{ x: 0, opacity: 1 }}
-						transition={{
-							delay: 0.6,
-							x: { type: "spring", stiffness: 60 },
-							opacity: { duration: 1 },
-							ease: "easeIn",
-							duration: 0.6,
-						}} className="text-[24px] lg:text-[48px] text-navy font-jost font-bold text-left">
+					< p   className="text-[24px] lg:text-[48px] text-navy font-jost font-bold text-left">
 						Get in touch with us
-					</motion.p>
+					</ p>
 					<form
 						className=" flex flex-col"
 						ref={formRef}

@@ -21,7 +21,7 @@ const Testimonial = () => {
 			className="md:px-24 px-6 z-10 ss:pt-6 pb-[80px] md:py-24 mt-[700px] ss:my-[300px] md:my-24 flex flex-col h-full w-full items-center justify-center bg-[#f2f3f5] relative"
 			id="testimonial"
 			style={sectionStyle}>
-			<div className="-top-[680px] ss:-top-[300px] md:-top-10 left-1/2 transform -translate-x-1/2 absolute grid md:grid-cols-4 ss:grid-cols-2 w-full px-6 lg:px-24 gap-10 md:gap-2">
+			<div   className="-top-[680px] ss:-top-[300px] md:-top-10 left-1/2 transform -translate-x-1/2 absolute grid md:grid-cols-4 ss:grid-cols-2 w-full px-6 lg:px-24 gap-10 md:gap-2">
 				<div className="relative bg-white flex flex-col items-center justify-center px-8 py-4 border rounded-xl  ">
 					<div className="-top-8 left-1/2 transform -translate-x-1/2    absolute  border-green    rounded-full">
 						<img src={Testimonial_img1} alt="" className="" />
@@ -68,24 +68,16 @@ const Testimonial = () => {
 				</div>
 			</div>
 			<div className="w-full flex flex-col items-center justify-center mt-24 md:mt-10 h-full">
-				<p className="text-center text-[14px] text-jost  text-green font-bold ">
+				<p data-aos="fade-up" className="text-center text-[14px] text-jost  text-green font-bold ">
 					Client Testimonial
 				</p>
-				<motion.p
-					initial={{ x: 100, opacity: 0 }}
-					whileInView={{ x: 0, opacity: 1 }}
-					transition={{
-						delay: 0.6,
-						x: { type: "spring", stiffness: 60 },
-						opacity: { duration: 1 },
-						ease: "easeIn",
-						duration: 0.6,
-					}}
+				< p
+					 data-aos="fade-up"
 					className="text-center mt-2 text-navy text-[30px] font-bold">
 					What people are saying about us!
-				</motion.p>
+				</ p>
 			</div>
-			<div className="grid lg:grid-cols-3 w-full h-full mt-10 items-center  justify-center gap-2">
+			<div  data-aos="fade-up"  className="grid lg:grid-cols-3 w-full h-full mt-10 items-center  justify-center gap-2">
 				<div className="bg-white shadow-custom flex items-center flex-col rounded-md justify-center w-full h-full ">
 					<div className=" flex flex-cols-2 justify-between items-center p-5 w-full ">
 						<div className="flex flex-col">

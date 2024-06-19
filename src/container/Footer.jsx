@@ -23,7 +23,7 @@ const Footer = () => {
 			
 			className="lg:px-24 px-6   mt-12 flex flex-col h-full w-full items-center justify-center relative bg-navy "
 			style={sectionStyle}>
-			<div className="grid rounded-md md:px-0 px-2 items-center justify-center ss:grid-cols-2 lg:grid-cols-5 w-full h-full top-0 py-4 bg-[#151E3D] text-white">
+			<div  className="grid rounded-md md:px-0 px-2 items-center justify-center ss:grid-cols-2 lg:grid-cols-5 w-full h-full top-0 py-4 bg-[#151E3D] text-white">
 				<div className="w-full h-full">
 					<img src={logo2} alt="" className="w-[167px] h-[46px]" />
 				</div>

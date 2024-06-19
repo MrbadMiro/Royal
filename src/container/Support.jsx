@@ -1,5 +1,5 @@
 import React from "react";
-import { Background, hero1, Star, Arrow } from "../../Data";
+import { Background, hero1,hero2, Star, Arrow } from "../../Data";
 import { LuArrowRightCircle } from "react-icons/lu";
 import { motion } from "framer-motion";
 const Support = () => {
@@ -15,23 +15,15 @@ const Support = () => {
 			style={sectionStyle}>
 			<div className="grid md:grid-cols-2 items-center justify-center">
 				<div className="order-1 flex flex-col w-full h-full">
-					<p className="text-left text-[14px] mt-2 font-bold font-jost text-green ">
+					<p  data-aos="fade-up" className="text-left text-[14px] mt-2 font-bold font-jost text-green ">
 						We Always Care Eldery
 					</p>
-					<motion.p
-						initial={{ x: -100, opacity: 0 }}
-						whileInView={{ x: 0, opacity: 1 }}
-						transition={{
-							delay: 0.6,
-							x: { type: "spring", stiffness: 60 },
-							opacity: { duration: 1 },
-							ease: "easeIn",
-							duration: 0.6,
-						}}
+					< p
+					    data-aos="fade-up"
 						className="text-left md:text-[48px] text-[34px] mt-2 font-jost text-navy leading-[50px] font-extrabold     ">
 						Why most of the people prefer our oldkare
-					</motion.p>
-					<div className="w-full h-full flex flex-col ">
+					</ p>
+					<div data-aos="fade-up" className="w-full h-full flex flex-col ">
 						<div className="w-full h-full flex flex-col pt-8 gap-2">
 							<div className="w-full h-full flex flex-cols-2  md:justify-left  gap-2  border-b-2 py-2">
 								<div className="mt-1 ml-0">
@@ -84,7 +76,7 @@ const Support = () => {
 						</div>
 					</div>
 				</div>
-				<div className="order-2 items-left justify-left w-full h-full  relative p-5">
+				<div data-aos="zoom-in" className="order-2 items-left justify-left w-full h-full  relative p-5">
 					<img
 						src={hero1}
 						alt=""
@@ -111,7 +103,7 @@ const Support = () => {
 
 						<div className="w-full p-5 ">
 							<img
-								src={hero1}
+								src={hero2}
 								alt=""
 								className="boder w-[40%] h-full mr-0  object-cover rounded-xl  border-4  border-White  absolute top-0 right-0 "
 							/>

@@ -15,7 +15,7 @@ const About = () => {
 			id="about">
 			<div className="grid  md:grid-cols-2 pt-10 mt-10 relative gap-5 h-full w-full">
 				<div className=" order-1  pr-0 h-full w-full flex items-center justify-center  ">
-					<div className="flex mt-0 gap-4 relative h-full w-full">
+					<div data-aos="fade-up"  className="flex mt-0 gap-4 relative h-full w-full">
 						<div className="h-full">
 							<img
 								src={About1}
@@ -34,32 +34,24 @@ const About = () => {
 				{/* left side content*/}
 				<div className="order-2  flex flex-col justify-center  ss:items-left  ">
 					<div className="flex flex-col mt-2 w-full">
-						<p className=" text-[15px] font-bold font-jost leading-4 text-green ss:text-left mb-4   ">
+						<p data-aos="fade-up" className=" text-[15px] font-bold font-jost leading-4 text-green ss:text-left mb-4   ">
 							Peace of Mind for Busy Lives
 						</p>
 					</div>
 
-					<motion.p
-						initial={{ x: 100, opacity: 0 }}
-						whileInView={{ x: 0, opacity: 1 }}
-						transition={{
-							delay: 0.6,
-							x: { type: "spring", stiffness: 60 },
-							opacity: { duration: 1 },
-							ease: "easeIn",
-							duration: 0.6,
-						}}
+					<p
+					      data-aos="fade-up"
 						className="tracking-[-1.8px]  font-semibold md:leading-[54px] leading-[40px] text-navy  font-jost  md:text-[50px] sm:text-left text-[34px]   mb-2  ">
 						Your One-Stop Solution for Home and Property Care
-					</motion.p>
-					<p className="  font-regular font-jost text-[#67687A] left-3   text-[16px] w-full ss:text-left mt-2 ">
+					</p>
+					<p data-aos="fade-up" className="  font-regular font-jost text-[#67687A] left-3   text-[16px] w-full ss:text-left mt-2 ">
 						Royal Xpose simplifies your life by providing a comprehensive range
 						of services to care for your home, family, and property in Sri
 						Lanka. From compassionate elder care to reliable housekeeping and
 						skilled maintenance services, we're here to help you achieve peace
 						of mind.
 					</p>
-					<div className="grid ss:grid-cols-2 md:justify-between items-left justify-left  w-full">
+					<div data-aos="fade-up" className="grid ss:grid-cols-2 md:justify-between items-left justify-left  w-full">
 						<div className="flex  mt-4	py-2  gap-2   w-full ">
 							<div className=" w-[70px] h-[70px] bg-green flex items-center justify-center text-[50px] mr-0  text-white ">
 								<LiaUserNurseSolid />
@@ -74,7 +66,7 @@ const About = () => {
 								</p>
 							</div>
 						</div>
-						<div className="flex   mt-4	py-2  gap-2 w-full ">
+						<div  className="flex   mt-4	py-2  gap-2 w-full ">
 							<div className=" w-[70px] h-[70px] bg-green flex items-center justify-center text-[50px] text-white">
 								<LiaUserNurseSolid />
 							</div>
@@ -114,7 +106,7 @@ const About = () => {
 							</div>
 						</div>
 					</div>
-					<div className="flex  flex-col gap-4  ss:flex-row mt-4 w-full h-full items-center justify-center  ">
+					<div data-aos="fade-up" className="flex  flex-col gap-4  ss:flex-row mt-4 w-full h-full items-center justify-center  ">
 						<div className="w-full pr-2 h-full ">
 							<div>
 								

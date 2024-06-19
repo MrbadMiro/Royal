@@ -46,7 +46,8 @@ import Testimonial_img1 from "./src/assets/Testi_img1.svg";
 import Testimonial_img2 from "./src/assets/Testi_img2.svg";
 import Testimonial_img3 from "./src/assets/Testi_img3.svg";
 import Testimonial_img4 from "./src/assets/Testi_img4.svg";
-import Child_Care from "./src/assets/Child_Care.jpg";
+import Child_Care2 from "./src/assets/Child_Care.jpg";
+import Child_Care from "./src/assets/Child_Care.svg";
 import ResidentialCare from "./src/assets/ResidentialCare.jpg";
 import Taxi from "./src/assets/Taxi.jpg";
 import Buy from "./src/assets/Buy.jpg";
@@ -107,6 +108,7 @@ export const Services = [
 		title:
 			"Our compassionate and experienced caregivers are available to provide a wide range of services, including companionship, personal care, medication reminders, and meal preparation.",
 		tab: 1,
+		aosDelay: "500",
 	},
 	{
 		id: 2,
@@ -116,6 +118,7 @@ export const Services = [
 		title:
 			" Royal Xpose has reliable qualified babysitters who can stay with their kids while they are away to give a peace of mind to the parents.",
 		tab: 1,
+		aosDelay: "1000",
 	},
 	{
 		id: 3,
@@ -125,6 +128,8 @@ export const Services = [
 		title:
 			"We offer different services including cleaning, cooking, laundry and running errands through our dedicated staff at home leaving you to do more important things.",
 		tab: 2,
+		
+
 	},
 	{
 		id: 4,

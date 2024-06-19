@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Services } from "../../Data";
 import { motion } from "framer-motion";
 import { Link as ScrollLink } from "react-scroll";
- 
+
 const Service2 = () => {
 	const [activeTab, setActiveTab] = useState(1); // Default to Tab 1
 
@@ -15,26 +15,22 @@ const Service2 = () => {
 		<div
 			className=" pt-24 pb-20 lg:px-24 px-6 flex flex-col h-full w-full items-center bg-Solitude justify-center"
 			id="service">
-			<p className="text-[14px] text-green font-jost font-bold text-center">
+			<p
+				data-aos="fade-up"
+				className="text-[14px] text-green font-jost font-bold text-center">
 				What We Offers
 			</p>
-			<motion.p
-				initial={{ x: 100, opacity: 0 }}
-				whileInView={{ x: 0, opacity: 1 }}
-				transition={{
-					delay: 0.6,
-					x: { type: "spring", stiffness: 60 },
-					opacity: { duration: 1 },
-					ease: "easeIn",
-					duration: 0.6,
-				}}
+			<p
+				data-aos="fade-up"
 				className="text-[34px] md:text-[48px] mt-2 leading-10  w-full text-navy font-jost font-bold text-center">
 				We're committed to delivering <br />
 				the high-quality service
-			</motion.p>
+			</p>
 
 			<div className="w-full flex flex-col mt-10 ">
-				<div className="grid md:grid-cols-4 sm:grid-cols-2 gap-2 w-full text-center  p-4 text-[20px] text-white font-jost ">
+				<div
+					data-aos="fade-up"
+					className="grid md:grid-cols-4 sm:grid-cols-2 gap-2 w-full text-center  p-4 text-[20px] text-white font-jost ">
 					<div
 						className={`tabs ${
 							activeTab === 1 ? "active-tabs" : ""
@@ -70,6 +66,8 @@ const Service2 = () => {
 						{filteredServices.map((item, index) => (
 							<div
 								key={index}
+								data-aos="fade-up"
+								data-aos-delay={item.aosDelay}
 								className="p-4 shadow-lg  bg-white shadow-custom1 flex flex-col relative">
 								<img
 									src={item.image}
@@ -87,7 +85,9 @@ const Service2 = () => {
 					</div>
 				</div>
 			</div>
-			<div className="flex ss:flex-row flex-col items-center border-2  border-navy rounded-md p-4 gap-2 justify-center mt-12 mx-6">
+			<div
+				data-aos="zoom-in"
+				className="flex ss:flex-row flex-col items-center border-2  border-navy rounded-md p-4 gap-2 justify-center mt-12 mx-6">
 				<div className="flex ">
 					<p className="text-center text-[16px] font-jost">
 						Contact Royal Xpose today for a{" "}

@@ -27,7 +27,7 @@ const Employee = () => {
 				className="w-[50px] h-[50px] absolute bottom-7 right-3 animate-spin animate-infinite duration-30000 animation-timing-function: ease-in-out "
 			/>
 			<div className="grid md:grid-cols-2 ">
-				<div className="w-full h-full  pr-5 py-5">
+				<div data-aos="fade-up" className="w-full h-full  pr-5 py-5">
 					<img
 						src={Employee_img}
 						alt=""
@@ -35,27 +35,19 @@ const Employee = () => {
 					/>
 				</div>
 				<div className="w-full h-full flex flex-col items-center  ">
-					<motion.p
-						initial={{ x: 100, opacity: 0 }}
-						whileInView={{ x: 0, opacity: 1 }}
-						transition={{
-							delay: 0.6,
-							x: { type: "spring", stiffness: 60 },
-							opacity: { duration: 1 },
-							ease: "easeIn",
-							duration: 0.6,
-						}}
+					< p
+						data-aos="fade-up" 
 						className="font-bold leading-[24px] mt-10  md:leading-[32px] text-navy left-3 font-jost text-[20px] md:text-[24px] text-center md:text-left mb-2 ">
 						Passionate about caring for others? Join our team of dedicated
 						caregivers today and make a difference!
-					</motion.p>
-					<p className="text-center md:text-left mt-2 font-jost text-[16px] font-normal">
+					</ p>
+					<p  data-aos="fade-up" className="text-center md:text-left mt-2 font-jost text-[16px] font-normal">
 						If you have a passion for helping others and want to make a positive
 						impact in their lives, we invite you to become part of our caring
 						community. Join us today and experience the fulfilment of making a
 						difference every day.
 					</p>
-					<div className="w-full mt-10 flex items-center justify-center md:justify-start relative">
+					<div  data-aos="fade-up" className="w-full mt-10 flex items-center justify-center md:justify-start relative">
 						<button
 							className="overflow bg-green group relative  font-jost overflow-hidden text-[18px] text-white px-6 py-2 rounded-full before:absolute before:top-full before:left-0 before:h-full before:w-full before:bg-black before:transition-transform before:duration-500 hover:before:-translate-y-full"
 							onClick={toggleForm1}>
