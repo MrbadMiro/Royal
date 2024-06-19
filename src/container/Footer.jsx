@@ -261,8 +261,7 @@ const Footer = () => {
 			<hr className="bg-white" />
 			<div className="w-full">
 				<p className="text-center font-jost font-regular text-[16px] text-white">
-					© 2024 Royal-xpose All Rights Reserved. Powered By{" "}
-					<a href="https://tetravi.com/">Tetra VI😍.</a>
+					© 2024 Royal-xpose All Rights Reserved.
 				</p>
 			</div>
 		</div>
